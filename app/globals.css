@@ -180,9 +180,9 @@
 .hero-title {
   font-weight: 900;
   line-height: 0.9;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
-  font-size: clamp(4rem, 16vw, 18rem);
+  font-size: clamp(3rem, 7.5vw, 10rem);
   color: #ff4d4d;
   text-shadow: 0 6px 40px rgba(255, 77, 77, 0.35);
   margin: 0 0 1.25rem 0;
