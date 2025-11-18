@@ -121,6 +121,31 @@
   }
 }
 
+.splash-overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  z-index: 9999;
+}
+
+.countdown-number {
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  font-size: clamp(4rem, 12vw, 12rem);
+  animation: countdown-pop 1s ease-in-out forwards;
+}
+
+@keyframes countdown-pop {
+  0% { opacity: 0; transform: scale(0.8); }
+  20% { opacity: 1; transform: scale(1); }
+  80% { opacity: 1; transform: scale(1); }
+  100% { opacity: 0; transform: scale(0.9); }
+}
+
 /* Hero styles */
 .hero-container {
   position: relative;
